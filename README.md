@@ -13,7 +13,5 @@
 yolo_test_batch.py
 然后会在VOC/SegmentationClass生成检测后的结果
 
-我的程序是在ubantu下跑的，当然改一下路径之类的就可以在windows下测试啦
-
-有问题欢迎讨论，加微信
+4、参考draw-curve 文件夹说明绘制曲线评测结果
 
