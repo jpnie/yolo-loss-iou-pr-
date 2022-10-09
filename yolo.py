@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
+""""
 Class definition of YOLO_v3 style detection model on image and video
 """
 
