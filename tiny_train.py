@@ -126,4 +126,3 @@ def data_generator_wrap(annotation_lines, batch_size, input_shape, anchors, num_
 if __name__ == '__main__':
     _main()
 
-    
