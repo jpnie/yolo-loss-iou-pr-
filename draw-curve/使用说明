@@ -1,0 +1,23 @@
+
+
+pr曲线绘制
+
+./darknet detector valid cfg/voc.data cfg/yolov3-tiny.cfg backup/yolov3.weights -out ""  制作好测试集 运行该指令，会在results文件夹生成对应的类别txt
+
+对上一步的txt进行解析
+
+python reval_voc_py3.py results/
+该指令会在results文件夹生成对应的pkl
+
+python pr2.py
+生成pr曲线  记得修改pr里面pkl的路径和对应pkl的个数
+
+
+
+loss和iou曲线绘制的脚本
+先使用extract_log.py生成对应的iou txt和loss txt
+
+然后运行train_log_iou.py生成iou曲线
+train_loss_visualization.py生成loss曲线
+
+
