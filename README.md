@@ -7,11 +7,11 @@
 图像集做标注，并生成一些必须的图像路径txt文件。
 
 2、训练图像使用 tiny_train.py
-训练后的权重文件会保存在logs下
+训练后的权重文件会保存在logs下.
 
 3、对待测图像进行批量测试：
 yolo_test_batch.py
-然后会在VOC/SegmentationClass生成检测后的结果
+然后会在VOC/SegmentationClass生成检测后的结果.
 
-4、参考draw-curve 文件夹说明绘制曲线评测结果
+4、参考draw-curve 文件夹说明绘制曲线评测结果.
 
